@@ -17,9 +17,11 @@ in a platform agnostic way.
 
 * Navigate to PROJECT_ROOT/certgen
 * Run ./generate-cert.sh
+* Your certificates will be available in PROJECT_ROOT/certificates
 
 ### Executing ssh-keygen
 
 * Navigate to PROJECT_ROOT/ssh-keygen
 * Run ./build.sh
 * Run GITHUB_EMAIL="something@email.com" ./generate-key.sh
+* Your SSH keys will be available in PROJECT_ROOT/certificates
