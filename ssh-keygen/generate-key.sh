@@ -1,5 +1,9 @@
 #!/bin/bash
 set -eou pipefail
+
+DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$DIR"
+
 : "${GITHUB_EMAIL}:?"GITHUB_EMAIL must be set. Aborting."}"
 : "${OUTPUT_FILE_NAME:="id_rsa"}"
 
